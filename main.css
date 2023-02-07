@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+	background: #f9dddd;
+	padding: 16px 0;
+}
+
+
+.imag img {
+	max-width:100%;
+    max-height:150px;
+    margin-left: 36px;   
+}
+
+
+.caixa {
+	position: top-relative;
+	width: 940px;
+	margin: auto;
+}
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 36px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 auto;
+    margin-left: 16px;
+    
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 22px;
+	text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+}
+
+nav a:hover {
+	color: palevioletred;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form textarea{
+    resize:  none;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 20px;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: pink;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 15px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: palevioletred;
+	transform: scale(1.2);
+}
+
+table{
+	margin: 20px 40px;
+}
+
+thead {
+	background: pink;
+
+}
+
+td, th{
+border: 1px solid plum;
+padding: 8px 15px;
+}
+
+footer {
+	text-align: center;
+	background: #f9dddd;
+	padding: 40px 0;
+}
+.cop img {
+	width: 15%;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin: 20px 0 0;
+}
